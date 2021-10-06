@@ -1,0 +1,17 @@
+{
+  "name": "11ty-auth",
+  "version": "1.0.0",
+  "description": "OAuth with 11ty",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve",
+    "build-production": "npm run build"
+  },
+  "keywords": [],
+  "author": "Jesse Tomchak",
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0-canary.44",
+    "@netlify/functions": "^0.7.2"
+  }
+}
